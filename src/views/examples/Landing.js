@@ -24,7 +24,8 @@ import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+import aya1 from "assets/img/theme/aya2.jpg";
+
 
 // reactstrap components
 import {
@@ -652,7 +653,7 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={team4}
+                      src={aya2}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">

@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/aya2.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -92,7 +92,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Projects
                         </Button>
                         <Button
                           className="float-right"
@@ -101,7 +101,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          Experience Year 
                         </Button>
                       </div>
                     </Col>
@@ -124,31 +124,30 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Aya Abu Dagar{" "}
+                      <span className="font-weight-light">, 23</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                     Jordan, Amman
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Architecture Engineer - Under Graduation ASAC Student
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                     Al Albayt University 
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                         My name Aya Abu Dagar, Web Developer|Undergraduate Student-Abdul Aziz Al Ghurair School of Advanced Computing (ASAC ).
+                        Am 23 years old , Living in Amman .
+                       I was graduated from AL-albayt university , My major was architecture engineering .
+                       I don't have a work experience, Am looking forward to change my career and have better job . 
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
